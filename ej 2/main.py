@@ -7,7 +7,7 @@ pygame.init()
 ANCHO = 800
 ALTO = 600
 pantalla = pygame.display.set_mode((ANCHO, ALTO))
-pygame.display.set_caption("Escena con fondo e imagen")
+pygame.display.set_caption("Escenario con fondo")
 
 directorio_actual = os.path.dirname(__file__)
 ruta_imagen = os.path.join(directorio_actual, "cancha de telmo.png")
@@ -39,7 +39,7 @@ while ejecutando:
     pygame.draw.rect(pantalla, COLOR_PERSONAJE, (150, 390, 40, 60))
 
     pygame.display.flip()
-    reloj.tick(60)
+    reloj.tick(1)
 
 pygame.quit()
 sys.exit()

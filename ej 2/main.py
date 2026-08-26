@@ -38,7 +38,7 @@ except pygame.error as e:
     pygame.quit()
     sys.exit()
 
-COLOR_PLATAFORMA = (0, 255, 0)
+COLOR_PLATAFORMA = (0, 100, 0)
 
 ALTO_PERSONAJE = 160
 Y_PISO = 450 - ALTO_PERSONAJE
